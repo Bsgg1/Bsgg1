@@ -12,7 +12,6 @@
 
 - 🧪 **Infra Intern @ [Mind Lab](https://macaron.im/mindlab)** — managed infrastructure for training & serving millions of LLMs.
 - 🔧 Building & breaking: high-throughput inference, RL post-training pipelines, and the kernels underneath.
-- 📚 Mostly reading kernel source these days — `flash-linear-attention`, `RL-Kernel`, `GEAK`.
 
 ### 🧰 Stack
 
