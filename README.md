@@ -1,33 +1,62 @@
-## Hi, I'm yangbosong
+<div align="center">
 
-**ML infrastructure engineer — making LLMs train and serve efficiently.**
+# yangbosong
 
-## 🧭 About Me
+*ML infrastructure engineer — squeezing more tokens out of every GPU.*
 
-- 🧪 Infra Intern @ [Mind Lab](https://macaron.im/mindlab) — building managed infrastructure for training and serving millions of LLMs. My work spans high-throughput inference serving, RL post-training systems, and kernel-level optimization.
-- 💻 **Python** · **CUDA** · **Triton** · **Rust** — LLM training & inference, serving frameworks, RL infrastructure
-- 🔭 Forking & hacking on: [`vllm`](https://github.com/vllm-project/vllm) · [`sglang`](https://github.com/sgl-project/sglang) · [`flash-linear-attention`](https://github.com/sustcsonglin/flash-linear-attention) · [`RL-Kernel`](https://github.com/THUNLP-MT/RL-Kernel) · [`GEAK`](https://github.com/hpcaitech/GEAK)
-- 🌐 From serving throughput to training stability — making every token-per-second count.
-- 🎮 Also: systems theory, distributed systems, and chasing the next perf bottleneck.
-
-## 🔥 Spirit
-
-<p align="center">
-  <img src="stats/snake-dark.svg" alt="Contribution snake animation" width="100%" />
-</p>
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
-</p>
-
-<details>
-<summary>📈 GitHub Stats</summary>
-<p align="center">
-  <img src="stats/stats.svg" alt="GitHub stats card" width="90%" />
-  <img src="stats/top-langs.svg" alt="Top languages" width="90%" />
-</p>
-</details>
+</div>
 
 ---
 
-<p align="center"><i>“Throughput is a feature.”</i></p>
+### 📍 Now
+
+- 🧪 **Infra Intern @ [Mind Lab](https://macaron.im/mindlab)** — managed infrastructure for training & serving millions of LLMs.
+- 🔧 Building & breaking: high-throughput inference, RL post-training pipelines, and the kernels underneath.
+- 📚 Mostly reading kernel source these days — `flash-linear-attention`, `RL-Kernel`, `GEAK`.
+
+### 🧰 Stack
+
+`Python` `CUDA` `Triton` `PyTorch` `Rust` · `vLLM` `SGLang` `Megatron` · `Ray` `Docker` `Linux`
+
+### 🛠 What I'm hacking on
+
+I keep forks of the systems I depend on — partly to patch, partly to understand.
+
+| Repo | Why I fork it |
+|---|---|
+| [`vllm`](https://github.com/Bsgg1/vllm) | Serving scheduling & memory paths |
+| [`sglang`](https://github.com/Bsgg1/sglang) | Alternative serving / structured gen |
+| [`flash-linear-attention`](https://github.com/Bsgg1/flash-linear-attention) | Efficient attention kernels |
+| [`RL-Kernel`](https://github.com/Bsgg1/RL-Kernel) | RL post-training kernels |
+| [`GEAK`](https://github.com/Bsgg1/GEAK) | AI-centric kernel generation |
+
+<div align="center">
+
+### 🐍 Contributions
+
+<img src="stats/snake-dark.svg" alt="contribution snake" width="95%" />
+
+### 🌐 3D Contribution Graph
+
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="95%" />
+
+<details>
+<summary>📊 Stats & Languages</summary>
+
+<img src="stats/stats.svg" alt="stats" width="90%" />
+<br/>
+<img src="stats/top-langs.svg" alt="top languages" width="90%" />
+
+</details>
+
+</div>
+
+---
+
+<div align="center">
+
+*Measure twice, profile once.*
+
+<img src="https://komarev.com/ghpvc/?username=Bsgg1&style=flat-square&color=58A6FF" alt="visitors" />
+
+</div>
