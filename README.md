@@ -18,27 +18,11 @@
 
 `Python` `CUDA` `Triton` `PyTorch` `Rust` · `vLLM` `SGLang` `Megatron` · `Ray` `Docker` `Linux`
 
-### 🛠 What I'm hacking on
-
-I keep forks of the systems I depend on — partly to patch, partly to understand.
-
-| Repo | Why I fork it |
-|---|---|
-| [`vllm`](https://github.com/Bsgg1/vllm) | Serving scheduling & memory paths |
-| [`sglang`](https://github.com/Bsgg1/sglang) | Alternative serving / structured gen |
-| [`flash-linear-attention`](https://github.com/Bsgg1/flash-linear-attention) | Efficient attention kernels |
-| [`RL-Kernel`](https://github.com/Bsgg1/RL-Kernel) | RL post-training kernels |
-| [`GEAK`](https://github.com/Bsgg1/GEAK) | AI-centric kernel generation |
-
 <div align="center">
 
 ### 🐍 Contributions
 
 <img src="stats/snake-dark.svg" alt="contribution snake" width="95%" />
-
-### 🌐 3D Contribution Graph
-
-<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="95%" />
 
 <details>
 <summary>📊 Stats & Languages</summary>

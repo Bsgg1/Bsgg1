@@ -25,13 +25,6 @@ jobs:
             stats/snake-dark.svg?palette=github-dark
             stats/snake-light.svg?palette=github-light
 
-      # --- 3D contribution graph ---
-      - name: Generate 3D contrib
-        uses: yoshi389111/github-profile-3d-contrib@0.7.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: Bsgg1
-
       # --- Stats cards (self-hosted, no external vercel) ---
       - name: Stats card
         uses: lowlighter/metrics@latest
@@ -54,7 +47,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git add stats profile-3d-contrib
+          git add stats
           git commit -m "chore: update profile SVGs" || echo "no changes"
           git pull --rebase origin master || true
           git push
