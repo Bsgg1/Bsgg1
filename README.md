@@ -29,24 +29,6 @@ profile.tools = ["Python", "CUDA", "Triton", "PyTorch", "Rust", "C++", "Linux"]
 | **GPU kernels** | Triton/CUDA kernels where every microsecond matters |
 | **Engineering tools** | Small, sharp tools that make research workflows easier to operate |
 
-## Selected contributions
-
-A few public contributions I’m especially happy to have shipped:
-
-- **[Megatron-Bridge #6291](https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/6291)** — pipeline-stage-local Hugging Face export · **merged**
-- **[MetaInfer #32](https://github.com/HuangPuStar/MetaInfer/pull/32)** — configurable `pi` coding-agent backend · **merged**
-- **[RL-Kernel #82](https://github.com/RL-Align/RL-Kernel/pull/82)** — policy and reference-model wrappers · **merged**
-
-> Only merged PRs are listed here.
-
-## Contribution graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="stats/snake-light.svg">
-  <img src="stats/snake-light.svg" alt="GitHub contribution snake" width="100%" />
-</picture>
-
 <div align="center">
 
 <sub>Measure twice. Profile once. Ship often.</sub>
