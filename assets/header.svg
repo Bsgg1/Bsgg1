@@ -1,0 +1,63 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bsgg1 — ML systems and LLM infrastructure</title>
+  <desc id="desc">A dark technical banner with a blue-green gradient, grid lines, and the text ML SYSTEMS / LLM INFRASTRUCTURE.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1C2C"/>
+      <stop offset="1" stop-color="#062A31"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="93" y1="63" x2="1076" y2="267" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 61) rotate(145.5) scale(430 260)">
+      <stop stop-color="#2DD4BF" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#93C5FD" stroke-opacity="0.09"/>
+    </pattern>
+    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#halo)"/>
+
+  <g opacity="0.82">
+    <path d="M-30 282C120 212 155 306 298 231C429 162 483 247 602 193C751 126 802 176 934 102C1021 53 1097 64 1234 9" stroke="url(#glow)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-30 305C117 235 161 329 305 254C438 184 485 270 611 216C755 152 812 196 946 124C1030 79 1110 88 1234 33" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="1"/>
+  </g>
+
+  <g fill="#A7F3D0" filter="url(#softGlow)">
+    <circle cx="954" cy="94" r="3"/>
+    <circle cx="1036" cy="53" r="2"/>
+    <circle cx="1103" cy="72" r="3"/>
+    <circle cx="874" cy="147" r="2"/>
+  </g>
+
+  <g fill="#7DD3FC" fill-opacity="0.72">
+    <circle cx="81" cy="64" r="1.5"/>
+    <circle cx="144" cy="122" r="1.5"/>
+    <circle cx="230" cy="78" r="1"/>
+    <circle cx="1092" cy="221" r="1.5"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">
+    <text x="78" y="84" fill="#7DD3FC" font-size="14" letter-spacing="4">Bsgg1 / PROFILE</text>
+    <text x="78" y="153" fill="white" font-size="46" font-weight="700" letter-spacing="-1.5">ML SYSTEMS</text>
+    <text x="78" y="205" fill="url(#glow)" font-size="46" font-weight="700" letter-spacing="-1.5">LLM INFRASTRUCTURE</text>
+    <text x="82" y="250" fill="#BAE6FD" fill-opacity="0.78" font-size="16" letter-spacing="1.4">SERVING · TRAINING · KERNELS · TOOLING</text>
+    <text x="78" y="294" fill="#64748B" font-size="13">profile.status = "shipping"</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="338.5" rx="23.25" stroke="#7DD3FC" stroke-opacity="0.2" stroke-width="1.5"/>
+</svg>

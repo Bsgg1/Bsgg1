@@ -1,45 +1,54 @@
 <div align="center">
 
-# Bsgg1
+<img src="assets/header.svg" alt="Bsgg1 — ML systems and LLM infrastructure" width="100%" />
 
-*ML infrastructure engineer — squeezing more tokens out of every GPU.*
+<br />
 
-</div>
-
----
-
-### 📍 Now
-
-- 🧪 **Infra Intern @ [Mind Lab](https://macaron.im/mindlab)** — managed infrastructure for training & serving millions of LLMs.
-- 🔧 Building & breaking: high-throughput inference, RL post-training pipelines, and the kernels underneath.
-
-### 🧰 Stack
-
-`Python` `CUDA` `Triton` `PyTorch` `Rust` · `vLLM` `SGLang` `Megatron` · `Ray` `Docker` `Linux`
-
-<div align="center">
-
-### 🐍 Contributions
-
-<img src="stats/snake-dark.svg" alt="contribution snake" width="95%" />
-
-<details>
-<summary>📊 Stats & Languages</summary>
-
-<img src="stats/stats.svg" alt="stats" width="90%" />
-<br/>
-<img src="stats/top-langs.svg" alt="top languages" width="90%" />
-
-</details>
+[GitHub](https://github.com/Bsgg1) · [Repositories](https://github.com/Bsgg1?tab=repositories) · [Activity](https://github.com/Bsgg1?tab=activity)
 
 </div>
 
----
+## Hello, I'm Bsgg1
+
+I work on the systems underneath modern AI: **high-throughput inference, RL post-training, GPU kernels, and reliable training infrastructure**.
+
+Currently, I'm an ML infrastructure engineer at [Mind Lab](https://macaron.im/mindlab), turning ambitious research ideas into systems that can actually run, scale, and be debugged.
+
+```text
+profile.status = "shipping"
+profile.interests = ["LLM serving", "RL infrastructure", "GPU kernels", "developer tools"]
+profile.tools = ["Python", "CUDA", "Triton", "PyTorch", "Rust", "C++", "Linux"]
+```
+
+## What I'm building
+
+| Area | What it means in practice |
+| --- | --- |
+| **LLM systems** | Serving, scheduling, memory, and performance work around vLLM and SGLang |
+| **RL infrastructure** | Training and post-training systems with hardware-aware execution |
+| **GPU kernels** | Triton/CUDA kernels where every microsecond matters |
+| **Engineering tools** | Small, sharp tools that make research workflows easier to operate |
+
+## Selected contributions
+
+A few public contributions I’m especially happy to have shipped:
+
+- **[Megatron-Bridge #6291](https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/6291)** — pipeline-stage-local Hugging Face export · **merged**
+- **[MetaInfer #32](https://github.com/HuangPuStar/MetaInfer/pull/32)** — configurable `pi` coding-agent backend · **merged**
+- **[RL-Kernel #82](https://github.com/RL-Align/RL-Kernel/pull/82)** — policy and reference-model wrappers · **merged**
+
+> Only merged PRs are listed here.
+
+## Contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="stats/snake-light.svg">
+  <img src="stats/snake-light.svg" alt="GitHub contribution snake" width="100%" />
+</picture>
 
 <div align="center">
 
-*Measure twice, profile once.*
-
-<img src="https://komarev.com/ghpvc/?username=Bsgg1&style=flat-square&color=58A6FF" alt="visitors" />
+<sub>Measure twice. Profile once. Ship often.</sub>
 
 </div>
